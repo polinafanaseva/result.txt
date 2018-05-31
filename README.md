@@ -1,7 +1,7 @@
-№ Домашняя работа №9.
+# Домашняя работа №9.
 1. Первым заданием было удалить все строки. Я использовала регулярное выражение ^\s+. Я использовала графу "Find". Графу "Replace" я оставила пустой. 
 ![screenshot of 1](https://github.com/polinafanaseva/result.txt/blob/master/1.jpg)
 2. Вторым заданием было найти всех князей и города, имя и название которых оканчивается на "слав". При этом в выдаче должны были быть такие слова как "Ярославля, Ростиславъ, Ростиславу, Переяславлъ" и т.п., но не должно было быть "славу, выславше" и т.п. Я использовала регулярное выражение [А-ЯѢ]+[а-яѣ]+(слав)[а-яѣ]+ . Всего было найдено 564 совпадения.
-![screenshot of 1](https://github.com/polinafanaseva/result.txt/blob/master/1.jpg)
+![screenshot of 2](https://github.com/polinafanaseva/result.txt/blob/master/2.jpg)
 3. Третьим заданием было найти все упоминания Новгорода. Я использовала регулярное выражение (Нов)+.(город)[^W]. Всего было найдено 58 совпадений.
-![screenshot of 1](https://github.com/polinafanaseva/result.txt/blob/master/1.jpg)
+![screenshot of 3](https://github.com/polinafanaseva/result.txt/blob/master/3.jpg)
