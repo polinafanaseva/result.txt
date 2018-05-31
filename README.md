@@ -5,3 +5,22 @@
 ![screenshot of 2](https://github.com/polinafanaseva/result.txt/blob/master/2.jpg)
 3. Третьим заданием было найти все упоминания Новгорода. Я использовала регулярное выражение (Нов)+.(город)[^W]. Всего было найдено 58 совпадений.
 ![screenshot of 3](https://github.com/polinafanaseva/result.txt/blob/master/3.jpg)
+4. В бонусном задании необходимо было после каждого знака препинания поставить пробел (но выставлять их стоит только если того требуют правила русского языка). 
+Я разделила задание на 3 регулярных выражения.
+1) Чтобы выполнить эти условия:
+-надо добавить пробел после двоеточия
+-надо добавить пробел после точки с запятой
+-надо добавить пробел после запятой
+я  использовала регулярное выражение ([.,\-"!\?;:])|(А-ЯѢа-яѣ\.) с заменой на \1 \2
+![screenshot of 3](https://github.com/polinafanaseva/result.txt/blob/master/3.jpg)
+![screenshot of 3](https://github.com/polinafanaseva/result.txt/blob/master/3.jpg)
+2) Чтобы выполнить это условие: 
+- перед квадратной скобкой должен быть пробел; 
+я использовала регулярное выражение (\[) с заменой на  \1.
+![screenshot of 3](https://github.com/polinafanaseva/result.txt/blob/master/3.jpg)
+![screenshot of 3](https://github.com/polinafanaseva/result.txt/blob/master/3.jpg)
+3) Чтобы выполнить это условие:
+- после точки должен быть пробел, если до нее буква или кавычка, а после нее нет другой точки
+я использовала регулярное выражение \.  \.  \.   с заменой на ... 
+![screenshot of 3](https://github.com/polinafanaseva/result.txt/blob/master/3.jpg)
+![screenshot of 3](https://github.com/polinafanaseva/result.txt/blob/master/3.jpg)
