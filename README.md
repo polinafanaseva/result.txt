@@ -26,4 +26,4 @@
 ![screenshot of 6](https://github.com/polinafanaseva/result.txt/blob/master/6.jpg)
 
 И в конце, привела текст в нормальный вид, заменив 2,3,4,5-ые пробелы одним. 
-![screenshot of 7]()
+![screenshot of 7](https://github.com/polinafanaseva/result.txt/blob/master/7.jpg)
