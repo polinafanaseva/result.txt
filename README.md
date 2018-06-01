@@ -25,5 +25,5 @@
 я использовала регулярное выражение \.  \.  \.   с заменой на ... 
 ![screenshot of 6](https://github.com/polinafanaseva/result.txt/blob/master/6.jpg)
 
-И в конце, привела текст в нормальный вид, заменив 2,3,4,5-ые пробелы одним. 
+И в конце, привела текст в нормальный вид, заменив 2,3,4,5-ые пробелы одним (в скриншоте я просто уже выполнила эту операцию)
 ![screenshot of 7](https://github.com/polinafanaseva/result.txt/blob/master/7.jpg)
