@@ -16,8 +16,9 @@
 №2 Чтобы выполнить это условие: 
 - перед квадратной скобкой должен быть пробел; 
 я использовала регулярное выражение (\[) с заменой на  \1.
-![screenshot of 5](https://github.com/polinafanaseva/result.txt/blob/master/3.jpg)
+![screenshot of 5](https://github.com/polinafanaseva/result.txt/blob/master/5.jpg)
 №3 Чтобы выполнить это условие:
-- после точки должен быть пробел, если до нее буква или кавычка, а после нее нет другой точки
+- после точки должен быть пробел, если до нее буква или кавычка, а после нее нет другой точки 
+- исключить наличие пробелов между точкми в многоточии
 я использовала регулярное выражение \.  \.  \.   с заменой на ... 
-![screenshot of 6](https://github.com/polinafanaseva/result.txt/blob/master/3.jpg)
+![screenshot of 6](https://github.com/polinafanaseva/result.txt/blob/master/6.jpg)
